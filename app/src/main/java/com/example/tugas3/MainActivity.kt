@@ -68,4 +68,14 @@ fun ActivitasPertama(
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
-
+        // ISI HALAMAN
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(
+                    start = 12.dp,
+                    end = 12.dp,
+                    top = 70.dp
+                ),
+            horizontalAlignment = Alignment.CenterHorizontally
+        )
