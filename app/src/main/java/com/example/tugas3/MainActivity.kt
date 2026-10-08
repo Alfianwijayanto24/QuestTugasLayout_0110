@@ -107,6 +107,42 @@ fun ActivitasPertama(
             Spacer(
                 modifier = Modifier.height(20.dp)
             )
+            // CARD 1
+            CardAnggota(
+                nama = R.string.nama_1,
+                nim = null,
+                alamat = R.string.alamat_1,
+                warna = R.color.card_0_bg,
+                miring = true
+            )
+
+            // CARD 2
+            CardAnggota(
+                nama = R.string.nama_2,
+                nim = R.string.nim_2,
+                alamat = R.string.alamat_2,
+                warna = R.color.card_1_bg
+            )
+
+            // CARD 3
+            CardAnggota(
+                nama = R.string.nama_3,
+                nim = R.string.nim_3,
+                alamat = R.string.alamat_3,
+                warna = R.color.card_2_bg
+            )
+
+            // CARD 4
+            CardAnggota(
+                nama = R.string.nama_4,
+                nim = R.string.nim_4,
+                alamat = R.string.alamat_4,
+                warna = R.color.card_3_bg
+            )
+        }
+
+
+
 
 
 
