@@ -78,4 +78,17 @@ fun ActivitasPertama(
                     top = 70.dp
                 ),
             horizontalAlignment = Alignment.CenterHorizontally
-        )
+        ){
+
+            // JUDUL
+            Text(
+                text = stringResource(
+                    id = R.string.prodi
+                ),
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(
+                    id = R.color.black
+                )
+            )
+
