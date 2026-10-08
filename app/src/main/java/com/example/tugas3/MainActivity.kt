@@ -92,3 +92,21 @@ fun ActivitasPertama(
                 )
             )
 
+            // UNIVERSITAS
+            Text(
+                text = stringResource(
+                    id = R.string.univ
+                ),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(
+                    id = R.color.black
+                )
+            )
+
+            Spacer(
+                modifier = Modifier.height(20.dp)
+            )
+
+
+
