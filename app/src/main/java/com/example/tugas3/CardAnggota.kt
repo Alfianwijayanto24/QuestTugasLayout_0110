@@ -66,5 +66,11 @@ fun CardAnggota(
                 contentDescription = null,
                 modifier = Modifier
                     .size(70.dp)
+            )// DATA ANGGOTA
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(
+                        horizontal = 40.dp
+                    )
             )
-
