@@ -56,4 +56,15 @@ fun CardAnggota(
                 ),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
-        )
+        ){
+
+            // LOGO KIRI
+            Image(
+                painter = painterResource(
+                    id = R.drawable.logo_umy
+                ),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(70.dp)
+            )
+
