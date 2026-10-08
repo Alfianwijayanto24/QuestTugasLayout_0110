@@ -74,3 +74,26 @@ fun CardAnggota(
                         horizontal = 40.dp
                     )
             )
+            {
+
+                Text(
+                    text = stringResource(
+                        id = nama
+                    ),
+                    fontSize = 30.sp,
+                    fontWeight = if (miring) {
+                        FontWeight.Normal
+                    } else {
+                        FontWeight.Bold
+                    },
+                    fontStyle = if (miring) {
+                        FontStyle.Italic
+                    } else {
+                        FontStyle.Normal
+                    },
+                    color = colorResource(
+                        id = R.color.white
+                    )
+                )
+
+
