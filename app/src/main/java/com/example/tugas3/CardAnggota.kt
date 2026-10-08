@@ -95,5 +95,23 @@ fun CardAnggota(
                         id = R.color.white
                     )
                 )
+                if (nim != null) {
+
+                    Spacer(
+                        modifier = Modifier.size(2.dp)
+                    )
+
+                    Text(
+                        text = stringResource(
+                            id = nim
+                        ),
+                        fontSize = 14.sp,
+                        color = colorResource(
+                            id = R.color.cyan
+                        )
+                    )
+                }
+
+
 
 
