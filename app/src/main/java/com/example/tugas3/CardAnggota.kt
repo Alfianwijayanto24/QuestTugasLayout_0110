@@ -30,4 +30,18 @@ fun CardAnggota(
     warna: Int,
     miring: Boolean = false
 )
-}
+{
+
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(
+                top = 6.dp,
+                bottom = 6.dp
+            ),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(
+                id = warna
+            )
+        )
+    )
