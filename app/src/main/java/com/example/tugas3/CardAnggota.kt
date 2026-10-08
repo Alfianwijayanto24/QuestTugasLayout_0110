@@ -111,6 +111,23 @@ fun CardAnggota(
                         )
                     )
                 }
+                Spacer(
+                    modifier = Modifier.size(2.dp)
+                )
+
+                Text(
+                    text = stringResource(
+                        id = alamat
+                    ),
+                    fontSize = 20.sp,
+                    color = colorResource(
+                        id = R.color.yellow
+                    )
+                )
+            }
+
+
+
 
 
 
