@@ -140,6 +140,24 @@ fun ActivitasPertama(
                 warna = R.color.card_3_bg
             )
         }
+        // COPYRIGHT
+        Text(
+            text = stringResource(
+                id = R.string.copy
+            ),
+            fontSize = 12.sp,
+            color = colorResource(
+                id = R.color.black
+            ),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(
+                    bottom = 8.dp
+                )
+        )
+    }
+}
+
 
 
 
